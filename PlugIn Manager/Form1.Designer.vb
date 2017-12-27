@@ -33,6 +33,8 @@ Partial Class Form1
         Me.cmd_open = New PlugIn_Manager.CarbonFiberButton()
         Me.txt_path = New PlugIn_Manager.CarbonFiberTextBox()
         Me.CarbonFiberLabel1 = New PlugIn_Manager.CarbonFiberLabel()
+        Me.chk_args = New PlugIn_Manager.CarbonFiberCheckbox()
+        Me.txt_args = New PlugIn_Manager.CarbonFiberTextBox()
         Me.CarbonFiberTheme1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -45,6 +47,8 @@ Partial Class Form1
         Me.CarbonFiberTheme1.BackColor = System.Drawing.Color.FromArgb(CType(CType(22, Byte), Integer), CType(CType(22, Byte), Integer), CType(CType(22, Byte), Integer))
         Me.CarbonFiberTheme1.BorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.CarbonFiberTheme1.Colors = New PlugIn_Manager.Bloom(-1) {}
+        Me.CarbonFiberTheme1.Controls.Add(Me.txt_args)
+        Me.CarbonFiberTheme1.Controls.Add(Me.chk_args)
         Me.CarbonFiberTheme1.Controls.Add(Me.lv_methods)
         Me.CarbonFiberTheme1.Controls.Add(Me.CarbonFiberLabel3)
         Me.CarbonFiberTheme1.Controls.Add(Me.CarbonFiberLabel2)
@@ -65,7 +69,7 @@ Partial Class Form1
         Me.CarbonFiberTheme1.NoRounding = False
         Me.CarbonFiberTheme1.ShowIcon = False
         Me.CarbonFiberTheme1.Sizable = True
-        Me.CarbonFiberTheme1.Size = New System.Drawing.Size(466, 403)
+        Me.CarbonFiberTheme1.Size = New System.Drawing.Size(466, 454)
         Me.CarbonFiberTheme1.SmartBounds = True
         Me.CarbonFiberTheme1.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.CarbonFiberTheme1.TabIndex = 0
@@ -133,7 +137,7 @@ Partial Class Form1
         Me.cmd_run.Customization = ""
         Me.cmd_run.Font = New System.Drawing.Font("Verdana", 8.0!)
         Me.cmd_run.Image = Nothing
-        Me.cmd_run.Location = New System.Drawing.Point(20, 354)
+        Me.cmd_run.Location = New System.Drawing.Point(20, 396)
         Me.cmd_run.Name = "cmd_run"
         Me.cmd_run.NoRounding = False
         Me.cmd_run.Size = New System.Drawing.Size(422, 30)
@@ -202,11 +206,46 @@ Partial Class Form1
         Me.CarbonFiberLabel1.Text = "Path to managed DLL :"
         Me.CarbonFiberLabel1.Transparent = True
         '
+        'chk_args
+        '
+        Me.chk_args.Checked = False
+        Me.chk_args.Colors = New PlugIn_Manager.Bloom(-1) {}
+        Me.chk_args.Customization = ""
+        Me.chk_args.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.chk_args.Image = Nothing
+        Me.chk_args.Location = New System.Drawing.Point(20, 353)
+        Me.chk_args.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.chk_args.MinimumSize = New System.Drawing.Size(50, 16)
+        Me.chk_args.Name = "chk_args"
+        Me.chk_args.NoRounding = False
+        Me.chk_args.Size = New System.Drawing.Size(107, 16)
+        Me.chk_args.TabIndex = 8
+        Me.chk_args.Text = "Use arguments"
+        Me.chk_args.Transparent = False
+        '
+        'txt_args
+        '
+        Me.txt_args.Colors = New PlugIn_Manager.Bloom(-1) {}
+        Me.txt_args.Customization = ""
+        Me.txt_args.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.txt_args.Image = Nothing
+        Me.txt_args.Location = New System.Drawing.Point(20, 370)
+        Me.txt_args.MaxLength = 32767
+        Me.txt_args.Multiline = False
+        Me.txt_args.Name = "txt_args"
+        Me.txt_args.NoRounding = False
+        Me.txt_args.ReadOnly = False
+        Me.txt_args.Size = New System.Drawing.Size(422, 24)
+        Me.txt_args.TabIndex = 9
+        Me.txt_args.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txt_args.Transparent = False
+        Me.txt_args.UseSystemPasswordChar = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(466, 403)
+        Me.ClientSize = New System.Drawing.Size(466, 454)
         Me.Controls.Add(Me.CarbonFiberTheme1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Form1"
@@ -229,4 +268,6 @@ Partial Class Form1
     Friend WithEvents lv_methods As CarbonFiberListBox
     Friend WithEvents CarbonFiberLabel3 As CarbonFiberLabel
     Friend WithEvents CarbonFiberLabel2 As CarbonFiberLabel
+    Friend WithEvents txt_args As CarbonFiberTextBox
+    Friend WithEvents chk_args As CarbonFiberCheckbox
 End Class

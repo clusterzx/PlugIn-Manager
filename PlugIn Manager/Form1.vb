@@ -60,12 +60,16 @@ Public Class Form1
     Private Sub cmd_run_Click(sender As Object, e As EventArgs) Handles cmd_run.Click
         Dim Assembly As Reflection.Assembly = Reflection.Assembly.LoadFile(txt_path.Text)
         Dim classType As Type = Assembly.[GetType](lv_classes.Items.Item(lv_classes.SelectedIndex).ToString)
-
+        Dim o As Object() = Nothing
         Dim obj As Object = Activator.CreateInstance(classType)
 
         Dim mi As MethodInfo = classType.GetMethod(lv_methods.Items.Item(lv_methods.SelectedIndex).ToString)
-        mi.Invoke(obj, Nothing)
-
+        If chk_args.Checked = True Then
+            o = New Object() {txt_args.Text}
+            mi.Invoke(obj, o)
+        Else 'Ohne argumente
+            mi.Invoke(obj, Nothing)
+        End If
 
     End Sub
 End Class

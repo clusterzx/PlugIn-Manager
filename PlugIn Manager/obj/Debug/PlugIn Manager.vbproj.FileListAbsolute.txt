@@ -10,3 +10,14 @@ c:\users\dennis\source\repos\PlugIn Manager\PlugIn Manager\obj\Debug\PlugIn Mana
 c:\users\dennis\source\repos\PlugIn Manager\PlugIn Manager\obj\Debug\PlugIn Manager.exe
 c:\users\dennis\source\repos\PlugIn Manager\PlugIn Manager\obj\Debug\PlugIn Manager.xml
 c:\users\dennis\source\repos\PlugIn Manager\PlugIn Manager\obj\Debug\PlugIn Manager.pdb
+C:\Users\Dennis\Documents\Git Projects\PlugIn-Manager\PlugIn-Manager\PlugIn Manager\bin\Debug\PlugIn Manager.exe.config
+C:\Users\Dennis\Documents\Git Projects\PlugIn-Manager\PlugIn-Manager\PlugIn Manager\bin\Debug\PlugIn Manager.exe
+C:\Users\Dennis\Documents\Git Projects\PlugIn-Manager\PlugIn-Manager\PlugIn Manager\bin\Debug\PlugIn Manager.pdb
+C:\Users\Dennis\Documents\Git Projects\PlugIn-Manager\PlugIn-Manager\PlugIn Manager\bin\Debug\PlugIn Manager.xml
+C:\Users\Dennis\Documents\Git Projects\PlugIn-Manager\PlugIn-Manager\PlugIn Manager\obj\Debug\PlugIn_Manager.Form1.resources
+C:\Users\Dennis\Documents\Git Projects\PlugIn-Manager\PlugIn-Manager\PlugIn Manager\obj\Debug\PlugIn_Manager.Resources.resources
+C:\Users\Dennis\Documents\Git Projects\PlugIn-Manager\PlugIn-Manager\PlugIn Manager\obj\Debug\PlugIn Manager.vbproj.GenerateResource.Cache
+C:\Users\Dennis\Documents\Git Projects\PlugIn-Manager\PlugIn-Manager\PlugIn Manager\obj\Debug\PlugIn Manager.vbproj.CoreCompileInputs.cache
+C:\Users\Dennis\Documents\Git Projects\PlugIn-Manager\PlugIn-Manager\PlugIn Manager\obj\Debug\PlugIn Manager.exe
+C:\Users\Dennis\Documents\Git Projects\PlugIn-Manager\PlugIn-Manager\PlugIn Manager\obj\Debug\PlugIn Manager.xml
+C:\Users\Dennis\Documents\Git Projects\PlugIn-Manager\PlugIn-Manager\PlugIn Manager\obj\Debug\PlugIn Manager.pdb
