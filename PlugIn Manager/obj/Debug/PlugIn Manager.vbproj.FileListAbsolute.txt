@@ -1,0 +1,12 @@
+c:\users\dennis\source\repos\PlugIn Manager\PlugIn Manager\bin\Debug\PlugIn Manager.exe.config
+c:\users\dennis\source\repos\PlugIn Manager\PlugIn Manager\bin\Debug\PlugIn Manager.exe
+c:\users\dennis\source\repos\PlugIn Manager\PlugIn Manager\bin\Debug\PlugIn Manager.pdb
+c:\users\dennis\source\repos\PlugIn Manager\PlugIn Manager\bin\Debug\PlugIn Manager.xml
+c:\users\dennis\source\repos\PlugIn Manager\PlugIn Manager\obj\Debug\PlugIn Manager.vbprojResolveAssemblyReference.cache
+c:\users\dennis\source\repos\PlugIn Manager\PlugIn Manager\obj\Debug\PlugIn_Manager.Form1.resources
+c:\users\dennis\source\repos\PlugIn Manager\PlugIn Manager\obj\Debug\PlugIn_Manager.Resources.resources
+c:\users\dennis\source\repos\PlugIn Manager\PlugIn Manager\obj\Debug\PlugIn Manager.vbproj.GenerateResource.Cache
+c:\users\dennis\source\repos\PlugIn Manager\PlugIn Manager\obj\Debug\PlugIn Manager.vbproj.CoreCompileInputs.cache
+c:\users\dennis\source\repos\PlugIn Manager\PlugIn Manager\obj\Debug\PlugIn Manager.exe
+c:\users\dennis\source\repos\PlugIn Manager\PlugIn Manager\obj\Debug\PlugIn Manager.xml
+c:\users\dennis\source\repos\PlugIn Manager\PlugIn Manager\obj\Debug\PlugIn Manager.pdb
